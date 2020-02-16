@@ -1,0 +1,24 @@
+{
+  "name": "online-offline-budget-trackers",
+  "version": "1.0.0",
+  "description": "Budget Tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"ERROR NO TEST\\ \"&& EXIT 1\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Britt-hub/Online-Offline-Budget-Trackers.git"
+  },
+  "author": "Brittany",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Britt-hub/Online-Offline-Budget-Trackers/issues"
+  },
+  "homepage": "https://github.com/Britt-hub/Online-Offline-Budget-Trackers#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.1",
+    "morgan": "^1.9.1"
+  }
+}

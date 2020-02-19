@@ -146,6 +146,4 @@ db.Workout.deleteMany({})
     process.exit(1);
   });
 
-  .catch {
-    console.log()
-  };
+ 

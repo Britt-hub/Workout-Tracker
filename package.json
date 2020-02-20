@@ -4,7 +4,10 @@
   "description": "Budget Tracker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \\\"ERROR NO TEST\\ \"&& EXIT 1\""
+    "test": "echo \\\"ERROR NO TEST\\ \"&& EXIT 1\"",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
   },
   "repository": {
     "type": "git",

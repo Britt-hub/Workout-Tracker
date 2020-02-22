@@ -1,7 +1,7 @@
 {
-  "name": "online-offline-budget-trackers",
+  "name": "Workout-Tracker",
   "version": "1.0.0",
-  "description": "Budget Tracker",
+  "description": "Get Fit",
   "main": "index.js",
   "scripts": {
     "test": "echo \\\"ERROR NO TEST\\ \"&& EXIT 1\"",
@@ -16,9 +16,9 @@
   "author": "Brittany",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Britt-hub/Online-Offline-Budget-Trackers/issues"
+    "url": "https://britt-hub.github.io/Workout-Tracker/issues"
   },
-  "homepage": "https://github.com/Britt-hub/Online-Offline-Budget-Trackers#readme",
+  "homepage": "https://britt-hub.github.io/Workout-Tracker#readme",
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.9.1",

@@ -3,7 +3,7 @@ module.exports = {
     Exercise: require('./exercise'),
 };
 
-const db = require('.');
+const db = require('./');
 
 db.Exercise
 db.Workout

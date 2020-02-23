@@ -12,4 +12,5 @@ As a user, You will be able to view create and track daily workouts. You can log
 
 A consumer will reach their fitness goals quicker when they track their workout progress.
 
-##
+## Link
+https://britt-hub.github.io/Workout-Tracker/

@@ -1,9 +1,9 @@
 module.exports = {
     Workout: require('./workout'),
-    Exercise: require('./exercise'),
+    // Exercise: require('./exercise'),
 };
 
 const db = require('./');
 
-db.Exercise
-db.Workout
+// db.Exercise
+// db.Workout

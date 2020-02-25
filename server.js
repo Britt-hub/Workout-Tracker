@@ -23,6 +23,7 @@ app.use(express.json());
 
 mongoose.connect(process.env.MONGO_DB || "mongodb://localhost:27017/workoutdb", {useNewUrlParser: true})
 app.use(require("./Develop/routes/html.js"))
+app.use(require("./Develop/routes/api.js"))
 
 app.listen(PORT, () => {
     console.log(`App is listening on port ${PORT}!`);

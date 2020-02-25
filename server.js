@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true}));
 app.use(express.json());
 
 
-mongoose.connect(process.env.MONGO_DB || "mongodb://localhost:27017/workoutdb", {useNewUrlParser: true})
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/workoutdb", {useNewUrlParser: true})
 app.use(require("./Develop/routes/html.js"))
 app.use(require("./Develop/routes/api.js"))
 

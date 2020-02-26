@@ -7,7 +7,7 @@ const WorkoutSchema = new Schema({
         type: Date,
         default: Date.now
     },
-    exercise: [{
+    exercises: [{
         
     
         name: {
@@ -54,8 +54,8 @@ const WorkoutSchema = new Schema({
 
 WorkoutSchema.virtual("totalDuration").get(function () {
     // "reduce" array of exercises down to just the sum of their durations
-    return this.exercise.reduce((total, exercise) => {
-        return total + exercise.duration;
+    return this.exercises.reduce((total, exercises) => {
+        return total + exercises.duration;
     }, 0);
 
 });
